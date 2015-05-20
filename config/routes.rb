@@ -7,6 +7,8 @@ BackEndTapTpPublish::Application.routes.draw do
   get 'twitter/token' => 'twitters#get_token'
   get 'twitter/publish' => 'twitters#publish'
   get 'twitter/validate_token' => 'twitters#validate_token'
+  get 'twitter/get_info_user' => 'twitters#get_info_user'
+  
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

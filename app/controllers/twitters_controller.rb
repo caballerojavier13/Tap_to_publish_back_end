@@ -61,5 +61,21 @@ class TwittersController < ApplicationController
     end
   end
 
+  def get_info_user
+
+    client = TwitterOAuth::Client.new(
+        :consumer_key => params[:con_key],
+        :consumer_secret => params[:con_secret],
+        :token => params[:userKey],
+        :secret => params[:userSecret]
+    )
+
+
+    respond_to do |format|
+      #format.html
+      format.json {render json: client.user}
+    end
+  end
+
 
 end
