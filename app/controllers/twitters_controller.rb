@@ -57,7 +57,7 @@ class TwittersController < ApplicationController
 
     respond_to do |format|
       #format.html
-      format.json
+      format.json {render json: {:status => "200"}}
     end
   end
 
