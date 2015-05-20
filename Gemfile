@@ -39,7 +39,7 @@ end
 
 #gem 'figaro'
 
-#gem 'omniauth'
+#gem 'omniauth
 
 #gem 'omniauth-twitter'
 
