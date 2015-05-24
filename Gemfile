@@ -33,15 +33,12 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-#gem 'twitter_oauth'
 
 #gem 'pry'
 
 #gem 'figaro'
 
-#gem 'omniauth
-
-#gem 'omniauth-twitter'
+#gem 'omniauth'
 
 gem 'json'
 
